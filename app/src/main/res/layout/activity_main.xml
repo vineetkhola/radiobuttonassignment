@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+tools:context=".MainActivity">
+
+<RadioGroup
+    android:id="@+id/radiogrp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Any Color"
+        android:textColor="#EC2F09"
+        android:textSize="30sp"
+        />
+    <RadioButton
+        android:id="@+id/ylw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        android:textColor="#F9F909"
+        android:textSize="35sp"
+        />
+    <RadioButton
+        android:id="@+id/blk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black"
+        android:textColor="#070700"
+        android:textSize="35sp"
+        />
+    <RadioButton
+        android:id="@+id/grn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:textColor="#3A800E"
+        android:textSize="35sp"
+        />
+    <RadioButton
+        android:id="@+id/vlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="violet"
+        android:textColor="#4F09EC"
+        android:textSize="35sp"
+        />
+</RadioGroup>
+
+</LinearLayout>
